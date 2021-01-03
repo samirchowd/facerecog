@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import cv2 as cv 
-
-# Showing Nolan Image
-#img = cv.imread('photos/nolan.png')
-#cv.imshow('Nolan', img)
-
-# Reading Videos
-capture = cv.VideoCapture(0)
-
-
-cv.waitKey(0) 
-=======
 import numpy as np
 import cv2
 
@@ -50,4 +37,3 @@ cap.release()
 cv2.destroyAllWindows()
 
 
->>>>>>> d8af2c9e04fa868dd8dcd035700a49d3eeb62d90
